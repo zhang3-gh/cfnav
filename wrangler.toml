@@ -2,7 +2,9 @@
 # 
 name = "cfnav"
 compatibility_date = "2025-11-28"
-directory = "./dist/"
+main = "./dist/worker/index.js"
+[assets]
+directory = "./dist/client/"
 #
 # D1 数据库配置（必须）
 [[d1_databases]]
