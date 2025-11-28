@@ -1,14 +1,14 @@
 # ⚠️ 重要说明：此文件仅用于开发环境
 # 
-name = "bookmark-manager"
-compatibility_date = "2024-01-01"
-pages_build_output_dir = "dist"
+name = "cfnav"
+compatibility_date = "2025-11-28"
+directory = "./dist/"
 #
 # D1 数据库配置（必须）
 [[d1_databases]]
 binding = "DB"
 database_name = "bookmark-db"
-database_id = "YOUR_DATABASE_ID_HERE"  # 替换为你的 D1 数据库 ID
+database_id = "f70da40f-b51b-47e4-b943-89451c12c57f"  # 替换为你的 D1 数据库 ID
 
 # R2 存储桶配置（用于备份功能，可选）
 #
